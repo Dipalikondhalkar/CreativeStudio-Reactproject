@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* font-style: italic; */
+    font-family: "Fira Sans", sans-serif;
+}
+.navlist
+{
+    list-style-type: none;
+}
+.Mainpart
+{
+    background-image: url('../images/Background/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.studio
+{
+   padding-top: 80px;
+}
+
+.size
+{
+    width: 90%;
+}
+.title
+{
+    font-size: 40px;
+}
+.fontname
+{
+    font-family: "Fira Sans", sans-serif;
+}
+.btnborder
+{
+    border-radius: 30px;
+    width:40%;
+}
+.button1
+{
+    text-align: center;
+    /* border: 2px solid red;  */
+    width: 95%;
+    margin: 0 auto;   
+}
+.btncolor
+{
+    border: 1px solid white;
+    color: white;
+}
+.btncolor:hover
+{
+    border: 1px solid black;
+    color: black;
+}
+.herosection
+{
+   width: 90%;
+   margin: 0 auto;
+}
+/* about file */
+.backcolor
+{
+    opacity: 0.8;
+}
+.planborder
+{
+    border-radius: 50%;
+    border: 2px solid red;
+    width:55%;
+    margin: 0 auto;   
+}
+/* service file */
+.servicesize
+{
+    width: 90%;
+    margin-top: 90px;
+}
+.about
+{
+    width: 95%; 
+}
+.imgborder
+{
+    border-radius: 50%;
+}
+.navposition
+{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+@media(min-width:768px)
+{ 
+    .button1{
+        width: 50%;
+    }
+    .title{
+        font-size: 61px;
+    }
+    .planborder
+    { 
+        width:50%;
+         
+    }
+    .Mainpart
+    {
+        height: 500px;
+    }
+    .studio
+    {
+   padding-top: 140px;
+    }
+}
+@media(min-width:992px)
+{
+    .planborder
+    { 
+        width:70%;   
+    }
+    .Mainpart
+    {
+        height: 550px;
+    }
+}
